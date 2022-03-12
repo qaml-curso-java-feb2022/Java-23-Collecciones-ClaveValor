@@ -35,7 +35,7 @@ public class Main {
         TreeMap<Integer, String> frutasEnTreeMap = new TreeMap<>();
         frutasEnTreeMap.put(1, "Sandía");
         frutasEnTreeMap.put(2, "Melón");
-        frutasEnHashMap.put(null, "Fruta Desconocida");
+        frutasEnTreeMap.put(null, "Fruta Desconocida"); // Comenta esta linea para correr la aplicacion.
         frutasEnTreeMap.put(93, "Pitaya");
         frutasEnTreeMap.put(74, "Naranja");
         frutasEnTreeMap.put(35, "Naranja");
@@ -59,7 +59,7 @@ public class Main {
         LinkedHashMap<Integer, String> frutasEnLinkedHashMap = new LinkedHashMap<>(2);
         frutasEnLinkedHashMap.put(1, "Sandía");
         frutasEnLinkedHashMap.put(2, "Melón");
-        frutasEnHashMap.put(null, "Fruta Desconocida");
+        frutasEnLinkedHashMap.put(null, "Fruta Desconocida");
         frutasEnLinkedHashMap.put(93, "Pitaya");
         frutasEnLinkedHashMap.put(74, "Naranja");
         frutasEnLinkedHashMap.put(35, "Naranja");
